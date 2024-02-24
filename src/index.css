@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Rubik', sans-serif;
+}
+
+h1{
+  font-size: 40px !important;
+  width: 600px; 
+  font-family: 'REM', sans-serif;
+
+}
+.logo{
+  font-family: 'Major Birch', sans-serif;
+  color:goldenrod;
+  font-size: 30px;
+}
+
+.nav-button {
+  font-size: 12px !important;
+  font-weight: bold !important;
+  color: white !important;
+  font-family: 'Rubik', sans-serif !important;
+  border-radius: 0% !important;
+}
+
+.nav-button.active {
+  border-bottom: 2px solid goldenrod;
+}
